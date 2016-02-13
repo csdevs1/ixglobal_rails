@@ -1,3 +1,76 @@
 <% provide(:title, 'Acerca') %>
-<h1>StaticPages#acerca</h1>
-<p>Find me in app/views/static_pages/acerca.html.erb</p>
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="img/logo.png" />
+        <title>Foundation | Welcome</title>
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="foundation-icons/foundation-icons/foundation-icons.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link rel="stylesheet" href="css/fonts/geomanist_regular__italic/01.Geomanist_Regular/Geomanist_Regular_Webfontkit/stylesheet.css" />
+        
+        <script src='js/jquery.min.js'></script>
+        <script src="js/custom.js"></script>
+        <script src="js/smoothScroll.js"></script>
+        <script src="js/wow.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="wrapper banner banner-about">
+            <%= render 'layouts/menu' %>
+            
+            <div class="row">
+                <div class="large-12 medium-12 small-12 columns title-banner disable-select">
+                    <span><h1>Acerca de Nosotros</h1></span>
+                </div>
+            </div>
+                        
+        </div>
+        <div class="or-spacer">
+            <div class="mask"></div>
+            <span><i class="fi-torso-business"></i></span>
+        </div>
+        
+        <section class="wrapper">
+            <div class="row about-content disable-select">
+                <div class="large-12 medium-12 small-12 columns">
+                    <div class="large-4 medium-4 small-12 columns">
+                        <i class="fi-laptop"></i>
+                        <i class="fi-monitor"></i>
+                    </div>
+                    <div class="large-8 medium-8 small-12 large-centered columns">
+                        <p><b>iX Global c.a.</b> es una empresa dedicada a los servicios de consultoría informática, venta de equipos y accesorios tecnológicos. Esta empresa inicia sus operaciones el <span>06 de Junio de 2004</span> y se encuentra ubicada en <span id="city">Maracay</span>, Municipio Girardot,  del estado Aragua, Venezuela.</p>
+                    </div>
+                </div>
+                <hr class="separator-content">
+                <div class="large-12 medium-12 small-12 columns">
+                    <div class="large-7 medium-12 small-12 vision columns">
+                        <p>Somos una empresa dedicada a la consultoría y comercialización de tecnología, <span>orientando la mejor solución a nuestros clientes</span>, para ello contamos con un equipo de trabajo altamente motivado y competente con una gran capacidad de adaptación a las necesidades del mercado, colocándose así como la opción principal de los empresarios responsables exitosos.</p>
+                    </div>
+                    <div class="large-5 medium-12 small-12 columns">
+                        <img src="img/laptop2.png" class="laptop">
+                    </div>
+                </div>
+                <hr class="separator-content">
+                <div class="large-12 medium-12 small-12 columns">
+                    <div class="large-4 medium-4 small-12 small-center columns">
+                        <div class="skillshare"></div>
+                    </div>
+                    <div class="large-8 medium-8 small-12 large-centered columns">
+                        <p>Como proveedor, lo que buscamos es ser reconocidos por nuestros clientes como <span>el mejor socio de negocios</span>, inspirar confianza y credibilidad a su compañía dentro de un contexto de claridad y transparencia de una empresa con mucha experiencia en el campo de desarrollo tecnológico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <%= render 'layouts/footer' %>
+        
+        <script src="js/vendor/what-input.min.js"></script>
+        <script src="js/foundation.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

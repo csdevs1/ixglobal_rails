@@ -1,4 +1,115 @@
 <% provide(:title, 'Bienvenido') %>
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
-<%= link_to "Acerca", acerca_path %>
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="img/logo.png" />
+        <title>Foundation | Welcome</title>
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="foundation-icons/foundation-icons/foundation-icons.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link rel="stylesheet" href="css/fonts/geomanist_regular__italic/01.Geomanist_Regular/Geomanist_Regular_Webfontkit/stylesheet.css" />
+        
+        <script src='js/jquery.min.js'></script>
+        <script src="js/custom.js"></script>
+        <script src="js/smoothScroll.js"></script>
+        <script src="js/wow.min.js"></script>
+    </head>
+    <body>
+        <div class="wrapper banner banner-home">
+            <%= render 'layouts/manu' %>
+            <div class="row">
+                <div class="large-12 large-centered medium-12 columns small-centered disable-select logo"><img src="img/logo3.png"></div>
+            </div>
+            <div class="row">
+                <div class="large-12 large-centered medium-12 small-12 small-centered columns quote"><h1 class="disable-select">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1></div>
+            </div>
+        </div>
+        <div class="or-spacer">
+            <div class="mask"></div>
+            <span><i class="fi-web"></i></span>
+        </div>
+        
+        <div class="row abt-row disable-select">
+            <div class="large-3 medium-12 small-12 columns">
+                <div class="circle">
+                    <div class="stat inner-circle">
+                        <span class="stat-count stat-number wow fadeIn" data-n="11">0</span>
+                        <div class="milestone-details">Años</div>
+                    </div>
+                </div>
+            </div>
+            <div class="large-9 medium-12 small-12 columns abt-desc">
+                <div class="description">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <section class="wrapper service disable-select" id="services">
+            <div class="row">
+                <div class="large-12 medium-12 small-12 columns">
+                    <div class="title wow pulse"><h1>Nuestros Servicios</h1></div>
+                    <div class="description wow fadeIn">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                </div>
+                <div class="large-4 medium-6 small-12 columns wow fadeInDown">
+                    <div class="large-12 medium-12 small-12 columns item bg-grey">
+                        <div class="row">
+                            <div class="large-12 medium-12 small-12 columns">
+                                <img src="img/informix.png">
+                            </div>
+                            <div class="large-12 medium-12 small-12 columns">
+                                <p>
+                                    Diseño y desarrollos de proyectos basados en tecnologías INFORMIX.
+                                </p>
+                                <a href="">Ver más <i class="fi-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-4 medium-6 small-12 columns wow fadeInDown">
+                    <div class="large-12 medium-12 small-12 columns bg-dark item">
+                        <div class="row">
+                            <div class="large-12 medium-12 small-12 columns">
+                                <img src="img/sap.png">
+                            </div>
+                            <div class="large-12 medium-12 small-12 columns">
+                                <p>
+                                    Sistemas ERP SAP ECC 6.0, Modulo mantenimiento de plantas.
+                                </p>
+                                <a href="">Ver más <i class="fi-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="large-4 medium-6 small-12 columns end wow fadeInDown">
+                    <div class="large-12 medium-12 small-12 columns item bg-grey">
+                        <div class="row">
+                            <div class="large-12 medium-12 small-12 columns">
+                                <img src="img/informix.png">
+                            </div>
+                            <div class="large-12 medium-12 small-12 columns">
+                                <p>
+                                    Diseño y desarrollos de proyectos basados en tecnologías INFORMIX.
+                                </p>
+                                <a href="">Ver más <i class="fi-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </section>
+        
+        <%= render 'layouts/footer' %>
+    </body>
+</html>
+

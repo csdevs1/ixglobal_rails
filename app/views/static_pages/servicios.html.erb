@@ -1,3 +1,136 @@
 <% provide(:title, 'Servicios') %>
-<h1>StaticPages#servicios</h1>
-<p>Find me in app/views/static_pages/servicios.html.erb</p>
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="img/logo.png" />
+        <title>Foundation | Welcome</title>
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="foundation-icons/foundation-icons/foundation-icons.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link rel="stylesheet" href="css/fonts/geomanist_regular__italic/01.Geomanist_Regular/Geomanist_Regular_Webfontkit/stylesheet.css" />
+        
+        <script src='js/jquery.min.js'></script>
+        <script src="js/custom.js"></script>
+        <script src="js/smoothScroll.js"></script>
+        <script src="js/wow.min.js"></script>
+        
+    </head>
+    <body>
+        <div class="wrapper banner banner-service">
+            <%= render 'layouts/menu' %>
+            
+            <div class="row">
+                <div class="large-12 medium-12 small-12 columns title-banner disable-select">
+                    <span class="shape"><h1>NUESTROS SERVICIOS</h1></span>
+                </div>
+            </div>
+                        
+        </div>
+        <div class="or-spacer">
+            <div class="mask"></div>
+            <span><i class="fi-telephone"></i></span>
+        </div>
+        
+        <section class="wrapper">
+            <div class="row disable-select service-section">
+                <div class="large-12 medium-12 small-12 columns">
+                    <h1><span id="span-i">i</span><span id="span-x">X</span><span id="span-global">Global</span> es una compania comprometida a ofrecer un servicio de excelencia</h1>
+                    <div class="description">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        
+        <section class="wrapper supporting" id="consultoria">
+            <div class="row disable-select service-section">
+                <div class="large-6 medium-6 small-6 large-centered small-centered columns">
+                    <h1>Consultoria</h1>
+                    <hr>
+                </div>
+                <div class="large-6 medium-6 small-12 columns">
+                    <h2>Consultoria de proyectos</h2>
+                    <p>Este tipo de consultoría va ligada al estudio, desarrollo y seguimiento de los proyectos requeridos por el cliente, desde su implementación inicial hasta proyectos seguidos a su estrategia inicial.</p>
+                    <p>Las soluciones propuestas son personalizadas para cada cliente; en cada proyecto hay designado un jefe de proyecto responsable del estudio, planificación y ejecución del mismo, actuando asimismo como interlocutor ante el cliente.</p>
+                    <p>Nos gustaría remarcar que cada proyecto puede ser desarrollado a diferentes niveles, es decir que este servicio puede abarcar desde el estudio preliminar de la idea, hasta su implantación y supervisión.</p>
+                </div>
+                <div class="large-6 medium-6 small-12 columns">
+                    <h2>Consultoria de mantenimiento</h2>
+                    <p>Este tipo de consultorías ofrecemos a nuestros clientes soluciones a los problemas tecnológicos del día a día (Inventario y levantamiento de información del  parque tecnológico, upgrade de máquinas obsoletas, procedimientos de mantenimiento preventivos, políticas de respaldo, evaluaciones de software.</p>
+                    <p>
+                        Los canales para ofrecer consultoría son:
+                    </p>
+                    <ul class="list-service">
+                        <li>Línea telefónica de atención al cliente.</li>
+                        <li>Buzón de correo electrónico.</li>
+                        <li>Vía Skype</li>
+                        <li>Via VNC, Virtual Network Computing (Computación Virtual en Red)</li>
+                        <li>Visitas presenciales de nuestros técnicos.</li>
+                    </ul>
+                </div>
+            </div>
+        </section> 
+    
+        <section class="wrapper sap-service" id="sap">
+            <div class="row disable-select service-section">
+                <div class="large-12 medium-12 small-12 columns">
+                    <h1>Sistemas ERP SAP ECC 6.0, Modulo mantenimiento de plantas.</h1>
+                    <hr>
+                </div>
+                <div class="large-5 medium-5 small-12 columns">
+                    <img src="img/sap.png">
+                </div>
+                <div class="large-7 medium-7 small-12 columns">
+                    <ul class="list-service">
+                        <li>Servicios de Outsourcing para sistemas SAP, Modulo PM Mantenimiento de Plantas.</li>
+                        <li>Proyectos de implementación del módulos, basado en metodología ASAP.</li>
+                        <li>Preparación del proyecto.</li>
+                        <li>Levantamiento de información empresarial.</li>
+                        <li>Modelaje de sistema para la empresa, BBP Bussines Blue Print.</li>
+                        <li>Configuración del módulo e integración con otros módulos SAP.</li>
+                        <li>Definición de roles y usuarios.</li>
+                        <li>Preparación y actualización de plantillas datos maestros.</li>
+                        <li>Entrenamiento de usuarios para la gestión del módulo Mantenimiento de Plantas.</li>
+                        <li>Arranque y puesta en marcha de la aplicación.</li>
+                        <li>Soporte post instalación del módulo.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section class="wrapper supporting informix-service" id="informix">
+            <div class="row disable-select service-section">
+                <div class="large-8 medium-8 small-12 large-centered small-centered columns">
+                    <h1>Diseño y desarrollos de proyectos basados en tecnologías INFORMIX.</h1>
+                    <hr>
+                </div>
+                <div class="large-7 medium-7 small-12 columns">  
+                    <ul class="list-service">
+                        <li>Servicios de Outsourcing para sistemas SAP, Modulo PM Mantenimiento de Plantas.</li>
+                        <li>Proyectos de implementación del módulos, basado en metodología ASAP.</li>
+                        <li>Preparación del proyecto.</li>
+                        <li>Levantamiento de información empresarial.</li>
+                        <li>Modelaje de sistema para la empresa, BBP Bussines Blue Print.</li>
+                        <li>Configuración del módulo e integración con otros módulos SAP.</li>
+                        <li>Definición de roles y usuarios.</li>
+                        <li>Preparación y actualización de plantillas datos maestros.</li>
+                        <li>Entrenamiento de usuarios para la gestión del módulo Mantenimiento de Plantas.</li>
+                        <li>Arranque y puesta en marcha de la aplicación.</li>
+                        <li>Soporte post instalación del módulo.</li>
+                    </ul>
+                </div>
+                <div class="large-5 medium-5 small-12 image columns">
+                    <img src="img/informix.png">
+                </div>
+            </div>
+        </section>
+        
+        <%= render 'layouts/footer' %>
+        
+    </body>
+</html>
