@@ -5,7 +5,9 @@ $(window).load(function() {
     $("#loader").delay(100).hide();
 });
 
-$(document).ready(function($) {
+var ready;
+
+ready = (function($) {
  /*   setTimeout(function() {
         function count($this){
             var current = parseInt($this.html(), 10);
@@ -24,12 +26,17 @@ $(document).ready(function($) {
         });
     }, 200);*/
 });
+
+$(document).ready(ready);
+
 /* Fade out on Scroll
 $(window).scroll(function() {
     $(".logo").css({'opacity': 1-(($(this).scrollTop())/250)});          
 });*/
 
-$(document).ready(function() {
+var ready2;
+
+ready2 = (function() {
     var text_max = 1445;
     $('#textarea_feedback').html('(Quedan ' + text_max + ' caracteres)');
 
@@ -40,6 +47,8 @@ $(document).ready(function() {
         $('#textarea_feedback').html('(Quedan ' +text_remaining + ' caracteres)');
     });
 });
+
+$(document).ready(ready2);
 
 $(function () {
     var fx = function fx() {
