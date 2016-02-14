@@ -1,12 +1,12 @@
 <% provide(:title, 'Bienvenido') %>
 <!doctype html>
-<html class="no-js" lang="en">
+<!--<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" href="img/logo.png" />
-        <title>Foundation | Welcome</title>
+         <title>Foundation | Welcome</title>
         <link rel="stylesheet" href="css/foundation.css" />
         <link rel="stylesheet" href="foundation-icons/foundation-icons/foundation-icons.css" />
         <link rel="stylesheet" href="css/custom.css" />
@@ -17,12 +17,12 @@
         <script src="js/custom.js"></script>
         <script src="js/smoothScroll.js"></script>
         <script src="js/wow.min.js"></script>
-    </head>
-    <body>
+    </head>-->
+    <!--<body>-->
         <div class="wrapper banner banner-home">
             <%= render 'layouts/menu' %>
             <div class="row">
-                <div class="large-12 large-centered medium-12 columns small-centered disable-select logo"><img src="img/logo3.png"></div>
+                <div class="large-12 large-centered medium-12 columns small-centered disable-select logo"> <%= image_tag("logo3.png") %></div>
             </div>
             <div class="row">
                 <div class="large-12 large-centered medium-12 small-12 small-centered columns quote"><h1 class="disable-select">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1></div>
@@ -65,7 +65,7 @@
                     <div class="large-12 medium-12 small-12 columns item bg-grey">
                         <div class="row">
                             <div class="large-12 medium-12 small-12 columns">
-                                <img src="img/informix.png">
+                                <%= image_tag("informix.png") %>                                
                             </div>
                             <div class="large-12 medium-12 small-12 columns">
                                 <p>
@@ -80,7 +80,7 @@
                     <div class="large-12 medium-12 small-12 columns bg-dark item">
                         <div class="row">
                             <div class="large-12 medium-12 small-12 columns">
-                                <img src="img/sap.png">
+                                <%= image_tag("sap.png" ) %>
                             </div>
                             <div class="large-12 medium-12 small-12 columns">
                                 <p>
@@ -95,7 +95,7 @@
                     <div class="large-12 medium-12 small-12 columns item bg-grey">
                         <div class="row">
                             <div class="large-12 medium-12 small-12 columns">
-                                <img src="img/informix.png">
+                               <%= image_tag("informix.png" ) %> 
                             </div>
                             <div class="large-12 medium-12 small-12 columns">
                                 <p>
@@ -110,6 +110,5 @@
         </section>
         
         <%= render 'layouts/footer' %>
-    </body>
-</html>
-
+   <!-- </body>-->
+<!--</html>-->
