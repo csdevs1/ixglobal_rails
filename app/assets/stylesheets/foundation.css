@@ -1,5 +1,6 @@
 /*
     Commented line 2317 due to some issues
+    Commented line 2233 due to some issues
 */
 
 @charset "UTF-8";
@@ -2230,8 +2231,8 @@ select {
   vertical-align: top; }
   .media-object-section:first-child {
     padding-right: 1rem; }
-  .media-object-section:last-child:not( + &:first-child) {
-    padding-left: 1rem; }
+ /* .media-object-section:last-child:not( + &:first-child) {
+    padding-left: 1rem; }*/
   .media-object-section.middle {
     vertical-align: middle; }
   .media-object-section.bottom {
