@@ -2,6 +2,8 @@ Rails.application.routes.draw do
     root 'static_pages#home'
     get '/acerca' => 'static_pages#acerca', as: :acerca
     get '/servicios' => 'static_pages#servicios', as: :servicios
+    get '/contactenos' => 'mensajes#new', as: :contactenos
+    resources :mensajes, only: [:new, :create], :path => "contactenos"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
