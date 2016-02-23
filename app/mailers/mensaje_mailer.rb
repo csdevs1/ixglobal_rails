@@ -1,5 +1,5 @@
 class MensajeMailer < ApplicationMailer
-    default :to => "insertemail"
+    default :to => "ixglobalservice@gmail.com"
     def message_me(msg)
         @msg = msg
         
