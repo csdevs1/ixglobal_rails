@@ -22,7 +22,10 @@
         <div class="wrapper banner banner-home">
             <%= render 'layouts/menu' %>
             <div class="row">
-                <div class="large-12 large-centered medium-12 columns small-centered disable-select logo"> <%= image_tag("logo3.png") %></div>
+                <div class="large-12 large-centered medium-12 columns small-centered disable-select logo">
+                    <% # image_tag("logo3.png") %>
+                    <span class="whole-logo"><span id="i">&iscr;</span><span id="x">&xscr;</span><span id="global">Global</span></span>
+                </div>
             </div>
             <div class="row">
                 <div class="large-12 large-centered medium-12 small-12 small-centered columns quote"><h1 class="disable-select">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1></div>
