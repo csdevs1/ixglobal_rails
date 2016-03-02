@@ -1,5 +1,5 @@
 class MensajeMailer < ApplicationMailer
-    default :to => "ixglobalservice@gmail.com"
+    default :to => ENV['EMAIL_ACCOUNT']
     def message_me(msg)
         @msg = msg
         
