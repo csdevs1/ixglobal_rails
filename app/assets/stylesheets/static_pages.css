@@ -852,22 +852,22 @@ background: linear-gradient(to left, #6a3093 , #a044ff); /* W3C, IE 10+/ Edge, F
     font-size: 1.5em !important;
 }
 
-.service-section h1 #span-i {
+.span-i {
     color: #0000b2 !important;
-    animation: blur-text 0.7s 1 ease-in
+    animation: blur-text 0.7s 1 ease-in;
 }
 
-.service-section h1 #span-x {
+.span-x {
     color:  #FF1100 !important;
-    animation: blur-text 0.9s 1 ease-in
+    animation: blur-text 0.9s 1 ease-in;
 }
 
-.service-section h1 #span-global {
+.span-global {
     font-family: 'Josefin Slab', serif;
     font-weight: 900;
     color: #000;
     font-size: 1.5em !important;
-    animation: blur-text 1s 1 ease-in
+    animation: blur-text 1s 1 ease-in;
 }
 
 .supporting {
