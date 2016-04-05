@@ -867,7 +867,7 @@ background: linear-gradient(to left, #6a3093 , #a044ff); /* W3C, IE 10+/ Edge, F
 
 .span-global {
     font-family: 'Josefin Slab', serif;
-    font-weight: 900;
+    /* font-weight: 900; */
     color: #000;
     font-size: 1.5em !important;
     animation: blur-text 1s 1 ease-in;
