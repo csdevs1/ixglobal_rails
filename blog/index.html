@@ -2,22 +2,22 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+<section class="wrapper">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+        <div class="row post">
+            <div class="large-3 medium-6 small-12 columns">
+                <img src="http://assets.vg247.com/current//2016/03/batman_telltale-600x338.jpg">
+            </div>
+            <div class="large-9 medium-6 small-12 columns">
+                <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                <hr>
+                <p>
+                    <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span> - {{ post.content | strip_html | truncatewords:75 }}<a href="{{ post.url | prepend: site.baseurl }}">...Leer mas</a>
+                </p>
+            </div>
+        </div>
+        <hr>
     {% endfor %}
-  </ul>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->

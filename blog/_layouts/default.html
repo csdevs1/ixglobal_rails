@@ -4,16 +4,80 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+      
+      <!-- <div id="loader"></div> -->
+        <div class="wrapper banner banner-blog">
+            <div class="title-bar hide-for-medium" data-responsive-toggle="nav" data-hide-for="medium">
+                <div class="title-bar-left">
+                    <button class="menu-icon" type="button" data-open="offCanvasLeft" aria-expanded="false" aria-controls="offCanvasLeft" data-toggle></button>
+                    <span class="title-bar-title">Menu</span>
+                </div>
+            </div>
+            <nav id="nav" class="top-barshow-for-medium top-bar-left">
+                <ul class="vertical medium-horizontal menu">
+                    <li>
+                        <div class="row option">
+                            <a href="index.html">
+                                <div class="large-12 medium-12 small-4 columns"><i class="fi-home"></i></div>
+                                <div class="large-12 medium-12 small-8 columns"><span>Inicio</span></div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row option">
+                            <a href="about.html">
+                                <div class="large-12 medium-12 small-4 columns"><i class="fi-torsos-all"></i></div>
+                                <div class="large-12 medium-12 small-8 columns"><span>Acerca de nosotros</span></div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row option">
+                            <a href="">
+                                <div class="large-12 medium-12 small-4 columns"><i class="fi-wrench"></i></div>
+                                <div class="large-12 medium-12 small-8 columns"><span>Nuestros Servicios</span></div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row option">
+                            <a href="contact.html">
+                                <div class="large-12 medium-12 small-4 columns"><i class="fi-telephone"></i></div>
+                                <div class="large-12 medium-12 small-8 columns"><span><h1>Contactenos</h1></span></div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row option">
+                            <a>
+                                <div class="large-12 medium-12 small-4 columns "><i class="fi-page-multiple"></i></div>
+                                <div class="large-12 medium-12 small-8 columns"><span>Noticias</span></div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="row">
+                <div class="large-12 medium-12 small-12 columns title-banner disable-select">
+                    <span class="shape"><h1>BLOG</h1></span>
+                </div>
+            </div>
+                        
+        </div>
+        <div class="or-spacer">
+            <div class="mask"></div>
+            <span><i class="fi-pencil"></i></span>
+        </div>
+      
+    <!-- {% include header.html %} -->
+      {{ content }}
 
     {% include footer.html %}
+      
+      <script src="{{ "/js/vendor/what-input.min.js" | prepend: site.baseurl }}"></script>
+      <script src="{{ "/js/foundation.min.js" | prepend: site.baseurl }}"></script>
+      <script src="{{ "/js/app.js" | prepend: site.baseurl }}"></script>
 
   </body>
 
