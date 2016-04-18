@@ -517,7 +517,8 @@ background: linear-gradient(to left, #6a3093 , #a044ff); /* W3C, IE 10+/ Edge, F
     text-align: center;
     background-color: #fff;
     padding-bottom: 10%;
-    box-shadow: rgba(99,99,99,.4) 0 2px 7px;
+    -webkit-filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.9));
+    filter: drop-shadow(1px 5px 8px rgba(0,0,0,0.9));
    /* box-shadow: 0 0 3px #999;*/
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -525,9 +526,10 @@ background: linear-gradient(to left, #6a3093 , #a044ff); /* W3C, IE 10+/ Edge, F
 
 .item:hover {
     transform: translateY(-5px);
-    box-shadow: 8px 8px 25px #999999;
     -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);;
+    filter: grayscale(0%);
+    -webkit-filter: drop-shadow(1px 3px 6px rgba(0,0,0,0.9));
+    filter: drop-shadow(1px 5px 8px rgba(0,0,0,0.9));
 }
 
 .item img {
@@ -713,8 +715,8 @@ background: linear-gradient(to left, #6a3093 , #a044ff); /* W3C, IE 10+/ Edge, F
 /* Contact Us */
 
 .banner-contact {
-    background-image: url(contact-banner.jpg);
-    background-position: top;
+    background-image: url(contact.png);
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }

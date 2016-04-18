@@ -603,354 +603,6 @@ background: linear-gradient(to left, #6a3093 , #a044ff); /* W3C, IE 10+/ Edge, F
     text-shadow: -0.12em 0.12em 0.12em rgba(15, 15, 15, 0.4);
 }
 
-/* ABOUT */
-
-.banner-about {
-    background-image: url(http://i300.photobucket.com/albums/nn24/carlosxmrcy/Panorama3-1.jpg);
-    background-color: #000;
-    background-position: bottom center !important;
-    background-attachment: local;
-}
-
-.separator-content{
-    margin-bottom: 25px;
-}
-
-.about-content {
-    cursor: default;
-    margin-top: 20px;
-    text-align: right;
-}
-
-.vision {
-    text-align: left;
-}
-
-.vision p::first-line {
-    letter-spacing: 1vh;
-    text-shadow: 0px 0px 8px #000;
-}
-
-@media screen and (max-width: 39.99em) {
-    .about-content {
-        text-align: center;
-    }
-    
-    .vision {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width: 64em) {
-    .vision {
-        text-align: center;
-    }
-}
-
-.about-content > .columns {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.about-content i {
-    margin-right: 12px;
-    font-size: 11em;
-    color: #2f4f4f;
-}
-
-.about-content p {
-    font-family: 'Oswald', sans-serif;
-    float: right;
-    font-size: 2em;
-}
-
-.about-content p b {
-    letter-spacing: calc(1vw + 1vh + 0.5vmin);
-    font-weight: 700;
-    color: #2f4f4f;
-    font-size: 1.5em;
-    font-family: 'geomanist_regularregular', sans-serif;
-}
-
-.about-content p span {
-    font-weight: 600;
-    color: #1e90ff;
-}
-
-#city {
-    color: firebrick;
-}
-
-.skillshare {
-    background: url(https://boldanddetermined.com/wp-content/uploads/2012/03/Good-Handshake.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;    
-    margin-top: 10px;
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    border: 7px solid #e8e8e8;
-    text-align: center;
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
-
-/* END OF ABOUT */
-
-/* OUR SERVICES */
-
-.banner-service {
-    background-image: url(http://randomwallpapers.net/multitasking-programmer-digital-art-1920x1080-wallpaper241503.jpg);
-    background-color: #000;  
-}
-
-/* END OF OUR SERVICES */
-
-/* Contact Us */
-
-.banner-contact {
-    background-image: url(../img/contact-banner.jpg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.location { 
-    background: #ECE9E6; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-.embed-container {
-    position: relative;
-    padding-bottom: 55%;
-    height: 0;
-    overflow: hidden;
-}
-
-.embed-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.location-title h1 {
-    color: #494949;
-    cursor: default;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 2em;
-    font-weight: 900;
-}
-
-.location-title h1:nth-last-child(1) {
-    float: right;
-}
-
-.contact-info {
-    cursor: default;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.2em;
-    padding-bottom: 1%;
-}
-
-.contact-info span {
-    color: #555;
-    font-size: 1.1em;
-}
-
-.contact-info h1 {
-    text-align: center;
-    font-size: 1.5em;
-    padding-bottom: 1%;
-}
-
-.contact-section {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #ddd;
-}
-
-.contact-title {
-    margin-top: 10em;
-    margin-bottom: 10em;
-    padding: 2px;
-    color: rgba(0, 0, 0, 1);
-}
-
-.contact-title span h1 {
-    color: rgba(250, 250, 250, 0.98);
-}
-
-.contact-form {
-    padding-top: 2%;
-}
-
-.contact-form label {
-    font-family: 'geomanist_regularregular', sans-serif;
-    font-size: 1.1em;
-    color: #000;
-    font-weight: 900;
-}
-
-.contact-form  input[type='text'], .contact-form  input[type='email'] {
-    background-color: transparent;
-    background-image: none;
-    outline: 0;
-    border: 0 solid #999;
-    border-bottom-width: 3px;
-    border-radius: 0;
-    cursor: pointer;
-    line-height: normal;
-    letter-spacing: .05em;
-    color: #555;
-    font-family: 'Lato', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    border-color: inherit;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.contact-form textarea {
-    min-height: 250px;
-    resize: none;
-}
-
-#textarea_feedback {
-    font-family: 'Lato', sans-serif;
-    font-size: 0.8em;
-    color: #888;
-}
-
-.button {
-    font-family: 'Lato', sans-serif;
-    font-size: 1.1em;
-}
-
-.laptop {
-    width: 100%;
-}
-
-/* End of Contact Us */
-
-/* SERVICE SECTION */
-.service-section h1 {
-    font-size: 2.2em;
-    text-align: center;    
-    font-family: 'Oswald', sans-serif;
-    color: #000;
-    animation: blur-text 1.2s 1 ease-in;
-}
-
-.service-section h1 span {
-    font-family: 'Lobster', cursive;
-    font-size: 1.5em !important;
-}
-
-.span-i {
-    color: #0000b2 !important;
-    animation: blur-text 0.7s 1 ease-in
-}
-
-.span-x {
-    color:  #FF1100 !important;
-    animation: blur-text 0.9s 1 ease-in
-}
-
-.span-global {
-    font-family: 'Josefin Slab', serif;
-    font-weight: 900;
-    color: #000;
-    font-size: 1.5em !important;
-    animation: blur-text 1s 1 ease-in
-}
-
-.supporting {
-    background-color: #f7f7f7;
-    box-shadow: 0px 5px 20px #ddd;
-    padding-bottom: 1%;
-}
-
-.supporting h1 {
-    cursor: default;
-    font-size: 1.5em;
-    padding-top: 5%;
-    font-weight: 400;
-}
-
-.supporting h2 {
-    font-family: 'Lobster', cursive;
-    font-size: 1.6em;
-    text-align: center;
-    color: #555;
-    cursor: default;
-}
-
-.supporting p, .supporting ul {
-    cursor: default;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    color: #666;
-    padding-top: 1%;
-    text-align: justify;
-    text-shadow: 1% 1% #999;
-}
-
-.supporting p:nth-child(4) {
-    margin-bottom: 2%;
-}
-
-.list-service li:before {
-    content: '✔ '; 
-}
-
-.list-service li {
-    list-style: none;
-}
-
-.sap-service {
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-.sap-service img{
-    max-width: 99%;
-    padding-bottom: 2%;
-}
-
-.sap-service h1 {
-    font-size: 2em;
-}
-
-.sap-service ul {
-    cursor: default;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    color: #666;
-}
-
-.informix-service {
-    box-shadow: 0px -5px 20px #ddd;
-}
-
-.informix-service img {
-    padding-top: 1%;
-    max-width: 90%;
-    border-radius: 10%;
-}
-
-.image {
-    text-align: center;
-}
-/* END OF SERVICE SECTION */
-
 /* footer */
 footer {
     font-family: 'Lato', sans-serif;
@@ -1074,4 +726,48 @@ footer nav ul li a:hover {
 .date {
     font-size: 0.9em;
     color: #777;
+}
+
+.comments-count {
+    font-size: 1em;
+}
+
+.post-banner {
+    text-align: center;
+}
+
+.post-title {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+.post-meta {
+    color: #aaa;
+    text-align: center;
+}
+.post-banner img {
+    width: 70%;
+    max-height: 450px;
+    -webkit-filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.9));
+    filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.9));
+    border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.blog-img {
+    text-align: center;
+}
+
+.blog-img img {
+    width: 50%;
+}
+
+.comment-title {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 8px;
 }

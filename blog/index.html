@@ -6,13 +6,16 @@ layout: default
     {% for post in site.posts %}
         <div class="row post">
             <div class="large-3 medium-6 small-12 columns">
-                <img src="http://assets.vg247.com/current//2016/03/batman_telltale-600x338.jpg">
+                {% if post.img %}
+                    <img class="thumbnail" src="{{site.baseurl}}/img/{{post.img}}">
+                {% endif %}
             </div>
             <div class="large-9 medium-6 small-12 columns">
                 <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
                 <hr>
                 <p>
                     <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span> - {{ post.content | strip_html | truncatewords:75 }}<a href="{{ post.url | prepend: site.baseurl }}">...Leer mas</a>
+                    <br><span class="date comments-count">Comentarios: <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Link</a>.</span>
                 </p>
             </div>
         </div>
